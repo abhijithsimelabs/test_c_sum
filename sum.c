@@ -5,6 +5,7 @@ int calculateSum(int a, int b) {
     return a + b;
 }
 
+#ifndef TESTING
 int main() {
     int num1, num2, sum;
 
@@ -23,3 +24,4 @@ int main() {
 
     return 0;
 }
+#endif
